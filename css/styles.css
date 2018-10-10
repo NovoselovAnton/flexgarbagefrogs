@@ -4,7 +4,7 @@
 			height: 640px;
 			display: flex;
 			position: absolute;
-			justify-content: center;
+			
  			}
 .backgrounds {
 			background-color: #1F5768;
@@ -15,7 +15,7 @@
 }
 .lilypad_red	{
 			background-color: #ff0000;
-			position: ; 
+			position: relative; ; 
 			width: 20%;
 			height: 20%;
 			display: inline-block;
@@ -23,7 +23,7 @@
 			}
 .lilypad_yellow	{
 			background-color: #ffff00;
-			position: absolute; 
+			position: relative; 
 			width: 20%;
 			height: 20%;
 			display: inline-block;
@@ -31,7 +31,7 @@
 			}
 .lilypad_green	{
 			background-color: #008000;
-			position: absolute; 
+			position: relative; 
 			width: 20%;
 			height: 20%;
 			z-index: 8;
