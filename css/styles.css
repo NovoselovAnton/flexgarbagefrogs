@@ -4,9 +4,7 @@
 			height: 640px;
 			display: flex;
 			position: absolute;
-			flex-direction: row-reverse;
-justify-content: center;
-align-items: flex-end;
+			
  			}
 .backgrounds {
 			background-color: #1F5768;
@@ -57,6 +55,7 @@ align-items: flex-end;
 			display: block;
 			z-index: 99;
 			margin: 2%;
+			
 			}
 .frog_green 	{
 			background-color: #006400;
