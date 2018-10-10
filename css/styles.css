@@ -1,0 +1,65 @@
+.pond		{
+			z-index: 11;
+			width: 640px;
+			height: 640px;
+			display: flex;
+			position: absolute;
+			
+ 			}
+.backgrounds {
+			background-color: #1F5768;
+			width: 640px;
+			height: 640px;
+			position: absolute;
+			z-index: 10;
+}
+.lilypad_red	{
+			background-color: #ff0000;
+			position: ; 
+			width: 20%;
+			height: 20%;
+			display: inline-block;
+			z-index: 8;
+			}
+.lilypad_yellow	{
+			background-color: #ffff00;
+			position: absolute; 
+			width: 20%;
+			height: 20%;
+			display: inline-block;
+			z-index: 8;
+			}
+.lilypad_green	{
+			background-color: #008000;
+			position: absolute; 
+			width: 20%;
+			height: 20%;
+			z-index: 8;
+			}
+.frog_red 	{
+			background-color: #B22222;
+			position: absolute;
+			width: 16%;
+			height: 16%;
+			display: inline-block;
+			z-index: 99;
+			margin: 2%;
+			}
+.frog_yellow 	{
+			background-color: #FFA500;
+			position: absolute;
+			width: 16%;
+			height: 16%;
+			display: inline-block;
+			z-index: 99;
+			margin: 2%;
+			}
+.frog_green 	{
+			background-color: #006400;
+			position: absolute;
+			width: 16%;
+			height: 16%;
+			z-index: 99;
+			margin: 2%;
+			}
+
