@@ -55,7 +55,7 @@
 			display: block;
 			z-index: 99;
 			margin: 2%;
-			
+			order: 1
 			}
 .frog_green 	{
 			background-color: #006400;
