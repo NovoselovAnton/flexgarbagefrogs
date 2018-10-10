@@ -4,8 +4,7 @@
 			height: 640px;
 			display: flex;
 			position: absolute;
-			flex-direction: column-reverse;
-justify-content: space-between;
+			
  			}
 .backgrounds {
 			background-color: #1F5768;
