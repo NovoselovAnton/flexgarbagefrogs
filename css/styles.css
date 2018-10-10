@@ -4,8 +4,7 @@
 			height: 640px;
 			display: flex;
 			position: absolute;
-			justify-content: space-around;
-align-items: flex-end;
+			
  			}
 .backgrounds {
 			background-color: #1F5768;
