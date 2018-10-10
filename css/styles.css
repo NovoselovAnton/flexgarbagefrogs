@@ -4,7 +4,8 @@
 			height: 640px;
 			display: flex;
 			position: absolute;
-			
+			flex-direction: column;
+justify-content: flex-end;
  			}
 .backgrounds {
 			background-color: #1F5768;
