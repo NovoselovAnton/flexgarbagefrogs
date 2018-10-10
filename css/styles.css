@@ -4,7 +4,7 @@
 			height: 640px;
 			display: flex;
 			position: absolute;
-			justify-content: flex-end;
+			j
  			}
 .backgrounds {
 			background-color: #1F5768;
@@ -38,25 +38,26 @@
 			}
 .frog_red 	{
 			background-color: #B22222;
-			position: absolute;
+			position: relative;
 			width: 16%;
 			height: 16%;
-			display: inline-block;
+			display: block;
 			z-index: 99;
 			margin: 2%;
 			}
 .frog_yellow 	{
 			background-color: #FFA500;
-			position: absolute;
+			position: relative;
 			width: 16%;
 			height: 16%;
-			display: inline-block;
+			display: block;
 			z-index: 99;
 			margin: 2%;
 			}
 .frog_green 	{
 			background-color: #006400;
-			position: absolute;
+			position: relative;
+			display: block;
 			width: 16%;
 			height: 16%;
 			z-index: 99;
