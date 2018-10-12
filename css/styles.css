@@ -1,72 +1,73 @@
-.pond		{
-			z-index: 11;
-			width: 640px;
-			height: 640px;
-			display: flex;
-			position: absolute;
-			flex-flow:wrap-reverse column-reverse;
+.pond {
+z-index: 11;
+width: 640px;
+height: 640px;
+display: flex;
+position: absolute;
+flex-flow:wrap-reverse column-reverse;
 justify-content: center;
 align-content: space-between;
- 			}
-.backgrounds {
-			background-color: #1F5768;
-			width: 640px;
-			height: 640px;
-			position: absolute;
-			z-index: 10;
 }
-.lilypad_red	{
-			background-color: #ff0000;
-			position: relative; ; 
-			width: 18%;
-			height: 18%;
-			border: 6.4px solid #D50202;
-			display: inline-block;
-			z-index: 8;
-			}
+.backgrounds {
+display: flex; flex-flow:wrap-reverse column-reverse;
+justify-content: center;
+align-content: space-between;
+background-color: #1F5768;
+width: 640px;
+height: 640px;
+position: absolute;
+z-index: 10;
+}
+.lilypad_red {
+background-color: #ff0000;
+position: relative;  
+width: 18%;
+height: 18%;
+border: 6.4px solid #D50202;
+display: inline-block;
+z-index: 8;
+}
 .lilypad_yellow	{
-			background-color: #ffff00;
-			position: relative; 
-			width: 18%;
-			height: 18%;
-			border: 6.4px solid #F5D904;
-			display: inline-block;
-			z-index: 8;
-			}
-.lilypad_green	{
-			background-color: #008000;
-			position: relative; 
-			width: 18%;
-			height: 18%;
-			border: 6.4px solid #006A00;
-			}
-.frog_red 	{
-			background-color: #B22222;
-			position: relative;
-			width: 16%;
-			height: 16%;
-			display: block;
-			z-index: 99;
-			margin: 2%;
-			
-			}
-.frog_yellow 	{
-			background-color: #FFA500;
-			position: relative;
-			width: 16%;
-			height: 16%;
-			display: block;
-			z-index: 99;
-			margin: 2%;
-
-			}
-.frog_green 	{
-			background-color: #006400;
-			position: relative;
-			display: block;
-			width: 16%;
-			height: 16%;
-			z-index: 99;
-			margin: 2%;
-			}
+background-color: #ffff00;
+position: relative; 
+width: 18%;
+height: 18%;
+border: 6.4px solid #F5D904;
+display: inline-block;
+z-index: 8;
+}
+.lilypad_green {
+background-color: #008000;
+position: relative; 
+width: 18%;
+height: 18%;
+border: 6.4px solid #006A00;
+}
+.frog_red {
+background-color: #B22222;
+position: relative;
+width: 16%;
+height: 16%;
+display: block;
+z-index: 99;
+margin: 2%;
+}
+.frog_yellow {
+background-color: #FFA500;
+position: relative;
+width: 16%;
+height: 16%;
+display: block;
+z-index: 99;
+margin: 2%;
+}
+.frog_green {
+background-color: #006400;
+position: relative;
+display: block;
+width: 16%;
+height: 16%;
+z-index: 99;
+margin: 2%;
+}
 
